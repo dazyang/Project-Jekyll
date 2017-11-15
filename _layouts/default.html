@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Project Jekyll</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto:400,500,500i,700" rel="stylesheet">
+</head>
+
+<header>
+  <a href="{{site.baseurl}}/what-is-jekyll.html" class="nav-style"><h1> {{site.title}}</h1></a>
+   {% include nav.html %}
+</header>
+
+<body>
+  {{content}}
+</body>
+
+{% include footer.html%}

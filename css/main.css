@@ -1,0 +1,162 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* .nav-style{
+  width: 200px;
+  height: 75px;
+  background-color: goldenrod
+} */
+
+header {
+  background-color: white;
+}
+
+h1{ 
+  font-size: 3em;
+  font-weight: 400;
+  font-family: 'Bungee Inline';
+  /* text-align: center; */
+}
+
+body {
+  /* position: relative; */
+  margin: 0 0 50px;
+  text-align: center;
+  background-color: rgb(189, 76, 57);
+}
+
+#main-quote {
+  font-size: 24px;
+  width: 75%;
+}
+
+.quotes {
+  padding: 10px;
+  border-left: 1px solid tomato;
+  border-right: 1px solid tomato;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 400;
+  /* text-align: left; */
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  /* text-align: center; */
+  
+}
+
+/* @media screen and (max-width: 800px) {
+  
+}
+
+@media screen and (min-width: 300px) {
+  .screen-1 {
+    margin-top: 5px;
+  }
+  .screen-2 {
+    margin-top: 5px;
+} */
+
+.screen-1 {
+  /* order: 1; */
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  /* margin: auto; */
+}
+
+.screen-2 {
+  /* order: 2; */
+  border: 1px solid black;
+  width: 700px;
+  height: auto;
+  /* margin: auto; */
+}
+
+
+/* HEROs */
+
+.code-block {
+  margin-bottom: 10px;
+  width: auto;
+  height: 200px;
+  background-image: url('/images/for-loop.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img { 
+  width: 120px;
+  height: 120px;
+}
+
+#hero {
+  margin-bottom: 10px;
+}
+
+.heros {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.real-name {
+  margin-top: -10px;
+  /* color: white; */
+}
+
+.super-power {
+  margin-top: -10px; 
+  font-size: 11px;
+  color: white;
+}
+
+.data-img {
+  /* width: 300px; */
+  height: 100%;
+  background-image: url('/images/data.png');
+  background-size: contain;
+}
+
+nav {
+  border: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  /* flex-flow: wrap nowrap; */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 11px;
+  color: white;
+  height: 50px;
+}

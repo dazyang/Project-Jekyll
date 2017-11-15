@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="flex-container">
+  <div class="screen-1">
+    <div class="data-img">
+      
+    </div>
+  </div>
+
+  <div class="screen-2">
+    <div class='code-block'>
+      
+    </div>
+    <div class="heros">  
+    {% for superhero in site.data.superheros%}
+    <div id="hero">
+        <img src="{{superhero.image}}">
+        <p class="real-name">
+          {{superhero.name | markdownify}}
+        </p> 
+        <p class="super-power">
+          {{superhero.alias}}
+        </p>
+    </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

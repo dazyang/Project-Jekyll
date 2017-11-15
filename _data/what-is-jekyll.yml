@@ -1,0 +1,7 @@
+- quote: “a simple, blog-aware, static site generator.”
+
+- quote: "Jekyll can act as a local web server and keep watch over any files in your project, generating all of the HTML, CSS and JavaScript files from templates, Markdown, Sass or CoffeeScript files."
+
+- quote: "**YAML Front-Matter Block** – a way of annotating templates or Markdown files with metadata."
+
+- quote: "Get rid of repeating headers, menus, footers and so on by working with layouts and includes."
